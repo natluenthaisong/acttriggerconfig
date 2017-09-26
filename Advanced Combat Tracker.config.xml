@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+    <SettingsSerializer>
+        <CheckBox Name="cbAutoLoadLogs" Value="True" />
+        <CheckBox Name="cbClipAutoConnect" Value="False" />
+        <NumericUpDown Name="nudLogFileSplit" Value="64" />
+        <TextBox Name="tbClipIP" Value="192.168.0.2" />
+        <CheckBox Name="cbOutlineTraces" Value="False" />
+        <CheckBox Name="cbPersistantMobs" Value="False" />
+        <CheckBox Name="cbRadialDisplay" Value="False" />
+        <NumericUpDown Name="nudHistoryShadowSecs" Value="1" />
+        <NumericUpDown Name="nudMaxOpacityThreshold" Value="5000" />
+        <CheckBox Name="cbbDisplayGraph" Value="False" />
+        <CheckBox Name="cbbAllowPanel2" Value="False" />
+        <CheckBox Name="cbTimersClickThrough" Value="False" />
+        <CheckBox Name="cbTimersClickThrough2" Value="False" />
+        <CheckBox Name="cbTimersOnTop" Value="True" />
+        <NumericUpDown Name="nudTimerScale" Value="1" />
+        <NumericUpDown Name="nudTimerScale2" Value="1" />
+        <NumericUpDown Name="nudTimersOpacity" Value="100" />
+        <NumericUpDown Name="nudTimersOpacity2" Value="100" />
+        <NumericUpDown Name="nudTimerWarning" Value="1" />
+        <CheckBox Name="cbGlobalMaxLimit" Value="False" />
+        <CheckBox Name="cbTLIncomingDamage" Value="True" />
+        <CheckBox Name="cbTLOutDamage" Value="True" />
+        <CheckBox Name="cbTLOutgoingHealing" Value="False" />
+        <CheckBox Name="cbTLRollingAvg" Value="True" />
+        <ComboBox Name="ddlTLGrouping" Value="" />
+        <NumericUpDown Name="nudTLSampleSize" Value="10" />
+        <CheckBox Name="cbParseCt" Value="False" />
+        <CheckBox Name="cbAutoCheck" Value="True" />
+        <CheckBox Name="cbbMiniParse" Value="False" />
+        <CheckBox Name="cbbShowTimers" Value="False" />
+        <CheckBox Name="cbExportLogText" Value="True" />
+        <CheckBox Name="cbImportCustomTriggers" Value="False" />
+        <CheckBox Name="cbContToEndCombat" Value="True" />
+        <CheckBox Name="cbRecordsSave" Value="True" />
+        <CheckBox Name="cbSParseExportIgnoreOtherAllies" Value="False" />
+        <CheckBox Name="cbSParseIgnoreEnemies" Value="False" />
+        <CheckBox Name="cbCullAll" Value="False" />
+        <CheckBox Name="cbCullCount" Value="False" />
+        <CheckBox Name="cbCullCountIgnoreNoAlly" Value="True" />
+        <CheckBox Name="cbCullNoAlly" Value="True" />
+        <CheckBox Name="cbCullOther" Value="False" />
+        <CheckBox Name="cbCullTimer" Value="False" />
+        <NumericUpDown Name="nudCullAllN" Value="5" />
+        <NumericUpDown Name="nudCullCountN" Value="50" />
+        <NumericUpDown Name="nudCullOtherN" Value="3" />
+        <NumericUpDown Name="nudCullTimerN" Value="60" />
+        <CheckBox Name="cbCurrentGraph" Value="False" />
+        <CheckBox Name="cbCurrentTable" Value="False" />
+        <CheckBox Name="cbExGraph" Value="False" />
+        <CheckBox Name="cbExHTML" Value="False" />
+        <CheckBox Name="cbExHTMLFTP" Value="False" />
+        <CheckBox Name="cbHTMLCullEncounters" Value="False" />
+        <CheckBox Name="cbHtmlTimers" Value="False" />
+        <NumericUpDown Name="nudCGraphDelay" Value="5" />
+        <NumericUpDown Name="nudExFTPPort" Value="21" />
+        <NumericUpDown Name="nudGraphX" Value="640" />
+        <NumericUpDown Name="nudGraphY" Value="256" />
+        <NumericUpDown Name="nudExportGraphX" Value="640" />
+        <NumericUpDown Name="nudExportGraphY" Value="256" />
+        <NumericUpDown Name="nudHTMLCullingCount" Value="20" />
+        <RadioButton Name="rbExFTPActive" Value="False" />
+        <RadioButton Name="rbExFTPPassive" Value="True" />
+        <TextBox Name="tbExFTPPass" Value="Password" />
+        <TextBox Name="tbExFTPPath" Value="/Initial Path/" />
+        <TextBox Name="tbExFTPServer" Value="ftp.server.com" />
+        <TextBox Name="tbExFTPUser" Value="Username" />
+        <CheckBox Name="cbGraphRollingAvg" Value="True" />
+        <CheckBox Name="cbOnlyGraphAllies" Value="True" />
+        <CheckBox Name="cbSimpleGraphTotals" Value="True" />
+        <ComboBox Name="ddlGraphPriority" Value="Normal" />
+        <RadioButton Name="rbGraphAdv" Value="False" />
+        <RadioButton Name="rbGraphSimple" Value="True" />
+        <CheckBox Name="cbLcdRoute" Value="False" />
+        <ComboBox Name="ddlLcdMiniFormat" Value="" />
+        <NumericUpDown Name="nudLcd0FontOffset" Value="0" />
+        <NumericUpDown Name="nudLcd0VSpacing" Value="7" />
+        <NumericUpDown Name="nudLcd1FontOffset" Value="3" />
+        <NumericUpDown Name="nudLcd1VSpacing" Value="12" />
+        <NumericUpDown Name="nudLcd2FontOffset" Value="2" />
+        <NumericUpDown Name="nudLcd2VSpacing" Value="11" />
+        <NumericUpDown Name="nudLcd3FontOffset" Value="0" />
+        <NumericUpDown Name="nudLcd3VSpacing" Value="9" />
+        <CheckBox Name="cbIdleEnd" Value="True" />
+        <CheckBox Name="cbIdleTimerEnd" Value="True" />
+        <CheckBox Name="cbReverseSort" Value="True" />
+        <CheckBox Name="cbTableCommas" Value="True" />
+        <NumericUpDown Name="nudIdleLimit" Value="30" />
+        <NumericUpDown Name="nudUpdateValue" Value="5" />
+        <CheckBox Name="cbMinEncBox" Value="False" />
+        <CheckBox Name="cbMiniClickThrough" Value="False" />
+        <CheckBox Name="cbMiniColumnAlign" Value="True" />
+        <CheckBox Name="cbRestoreEncBox" Value="False" />
+        <CheckBox Name="cbSmallEncTop" Value="True" />
+        <ComboBox Name="ddlMiniFormat" Value="" />
+        <NumericUpDown Name="nudMiniUpdateInterval" Value="5" />
+        <TextBox Name="tbMiniOpacity" Value="100" />
+        <CheckBox Name="cbBlockisHit" Value="True" />
+        <CheckBox Name="cbCalcRealAvgDly" Value="True" />
+        <CheckBox Name="cbGCollectOnClear" Value="False" />
+        <CheckBox Name="cbLongEncDuration" Value="False" />
+        <CheckBox Name="cbMinimizeToIcon" Value="False" />
+        <CheckBox Name="cbRecordLogs" Value="True" />
+        <CheckBox Name="cbRestrictToAll" Value="False" />
+        <CheckBox Name="cbZoneAllListing" Value="True" />
+        <ComboBox Name="ddlLogPriority" Value="Above Normal" />
+        <NumericUpDown Name="nudCtThreads" Value="1" />
+        <CheckBox Name="cbAutoSaveSettings" Value="True" />
+        <CheckBox Name="cbAutoSaveDatabase" Value="False" />
+        <TextBox Name="tbCharName" Value="" />
+        <CheckBox Name="cbCurrentOdbc" Value="False" />
+        <CheckBox Name="cbExOdbc" Value="False" />
+        <CheckBox Name="cbSqlSafeMode" Value="True" />
+        <NumericUpDown Name="nudCOdbcDelay" Value="10" />
+        <RadioButton Name="rbOdbcEx1" Value="False" />
+        <RadioButton Name="rbOdbcEx2" Value="False" />
+        <RadioButton Name="rbOdbcEx3" Value="False" />
+        <RadioButton Name="rbOdbcEx4" Value="True" />
+        <RadioButton Name="rbOdbcEx5" Value="False" />
+        <TextBox Name="tbOdbcConnectionString" Value="DRIVER={MySQL ODBC 5.1 Driver};SERVER=data.domain.com;PORT=3306;DATABASE=myDatabase; USER=myUsername;PASSWORD=myPassword;OPTION=3;" />
+        <RadioButton Name="rbSndPlugin" Value="False" />
+        <RadioButton Name="rbSndWinApi" Value="False" />
+        <RadioButton Name="rbSndWmpApi" Value="False" />
+        <RadioButton Name="rbSndExportBeep" Value="False" />
+        <RadioButton Name="rbSndExportNone" Value="True" />
+        <RadioButton Name="rbSndExportTTS" Value="False" />
+        <RadioButton Name="rbSndExportWAV" Value="False" />
+        <RadioButton Name="rbSndStartBeep" Value="False" />
+        <RadioButton Name="rbSndStartNone" Value="True" />
+        <RadioButton Name="rbSndStartTTS" Value="False" />
+        <RadioButton Name="rbSndStartWAV" Value="False" />
+        <RadioButton Name="rbSndTimerBeep" Value="False" />
+        <RadioButton Name="rbSndTimerNone" Value="True" />
+        <RadioButton Name="rbSndTimerTTS" Value="False" />
+        <RadioButton Name="rbSndTimerWAV" Value="False" />
+        <RadioButton Name="rbSndWarnBeep" Value="False" />
+        <RadioButton Name="rbSndWarnNone" Value="True" />
+        <RadioButton Name="rbSndWarnTTS" Value="False" />
+        <RadioButton Name="rbSndWarnWAV" Value="False" />
+        <TextBox Name="tbSndExport" Value="" />
+        <TextBox Name="tbSndStart" Value="" />
+        <TextBox Name="tbSndTimer" Value="" />
+        <TextBox Name="tbSndWarn" Value="" />
+        <CheckBox Name="cbExportFilterSpace" Value="False" />
+        <CheckBox Name="cbExText" Value="True" />
+        <ComboBox Name="ddlClipFormat" Value="" />
+        <CheckBox Name="cbWebServerEnabled" Value="False" />
+        <CheckBox Name="cbWebServerShowReq" Value="False" />
+        <NumericUpDown Name="nudWebServerPort" Value="80" />
+        <RadioButton Name="rbSParseExport" Value="False" />
+        <RadioButton Name="rbSParseFull" Value="False" />
+        <RadioButton Name="rbSParseNone" Value="True" />
+        <TextBox Name="tbFeedbackEmail" Value="&lt;Optional return email address&gt;" />
+        <Form Name="FormActMain" X="290" Y="545" W="2265" H="1479" WindowState="Normal" />
+        <Form Name="FormMiniParse" X="0" Y="0" W="160" H="255" WindowState="Normal" />
+        <Form Name="FormUpdater" X="0" Y="0" W="620" H="466" WindowState="Normal" />
+        <Form Name="FormCombatantSearch" X="0" Y="0" W="585" H="303" WindowState="Normal" />
+        <Form Name="FormResistsDeathReport" X="0" Y="0" W="746" H="327" WindowState="Normal" />
+        <Form Name="FormSpellRecastCalc" X="1413" Y="758" W="834" H="294" WindowState="Normal" />
+        <Form Name="FormSpellTimers" X="1862" Y="1248" W="887" H="526" WindowState="Normal" />
+        <Form Name="FormSpellTimersPanel" X="0" Y="0" W="219" H="407" WindowState="Normal" />
+        <Form Name="FormSpellTimersPanel2" X="0" Y="0" W="219" H="406" WindowState="Normal" />
+        <Form Name="FormEncounterLogs" X="599" Y="188" W="1700" H="1046" WindowState="Normal" />
+        <Form Name="FormPerformanceWizard" X="0" Y="0" W="528" H="402" WindowState="Normal" />
+        <Form Name="FormXmlSettingsIO" X="52" Y="52" W="812" H="444" WindowState="Normal" />
+        <Form Name="FormTimeLine" X="0" Y="0" W="1148" H="572" WindowState="Normal" />
+        <Form Name="FormEncounterVcr" X="0" Y="0" W="1122" H="652" WindowState="Normal" />
+        <Form Name="FormSqlQuery" X="0" Y="0" W="827" H="541" WindowState="Normal" />
+        <Form Name="FormByCombatantLookup" X="0" Y="0" W="991" H="624" WindowState="Normal" />
+        <Form Name="FormStartupWizard" X="312" Y="312" W="539" H="401" WindowState="Normal" />
+        <Form Name="FormAlliesEdit" X="0" Y="0" W="267" H="414" WindowState="Normal" />
+        <Form Name="FormAvoidanceReport" X="1414" Y="969" W="761" H="479" WindowState="Normal" />
+        <Form Name="FormExportFormat" X="0" Y="0" W="777" H="565" WindowState="Normal" />
+        <Form Name="FormImportProgress" X="200" Y="200" W="692" H="236" WindowState="Normal" />
+        <Form Name="FormScratchRange" X="0" Y="0" W="658" H="304" WindowState="Normal" />
+        <Form Name="FormCustomTriggerBenchmark" X="208" Y="208" W="1200" H="644" WindowState="Normal" />
+        <TrackBar Name="tbarTtsVol" Value="38" />
+        <TrackBar Name="tbarWavVol" Value="38" />
+        <Panel Name="pGraphing" W="1671" H="264" />
+        <Panel Name="pLeftView" W="568" H="1410" />
+        <CheckedListBox Name="clbZD">
+            <Item Checked="False">EncId</Item>
+            <Item Checked="True">Title</Item>
+            <Item Checked="True">StartTime</Item>
+            <Item Checked="True">EndTime</Item>
+            <Item Checked="True">Duration</Item>
+            <Item Checked="True">Damage</Item>
+            <Item Checked="True">EncDPS</Item>
+            <Item Checked="False">Zone</Item>
+            <Item Checked="True">Kills</Item>
+            <Item Checked="True">Deaths</Item>
+        </CheckedListBox>
+        <Button Name="btnEDSort" Text="EncDPS" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <Button Name="btnEDSort2" Text="Duration" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <CheckedListBox Name="clbED">
+            <Item Checked="False">EncId</Item>
+            <Item Checked="False">Ally</Item>
+            <Item Checked="True">Name</Item>
+            <Item Checked="True">StartTime</Item>
+            <Item Checked="False">EndTime</Item>
+            <Item Checked="True">Duration</Item>
+            <Item Checked="True">Damage</Item>
+            <Item Checked="True">Damage%</Item>
+            <Item Checked="False">Kills</Item>
+            <Item Checked="False">Healed</Item>
+            <Item Checked="False">Healed%</Item>
+            <Item Checked="False">CritHeals</Item>
+            <Item Checked="False">Heals</Item>
+            <Item Checked="False">Cures</Item>
+            <Item Checked="True">PowerDrain</Item>
+            <Item Checked="False">PowerReplenish</Item>
+            <Item Checked="False">DPS</Item>
+            <Item Checked="True">EncDPS</Item>
+            <Item Checked="True">EncHPS</Item>
+            <Item Checked="False">Hits</Item>
+            <Item Checked="False">CritHits</Item>
+            <Item Checked="False">Avoids</Item>
+            <Item Checked="False">Misses</Item>
+            <Item Checked="False">Swings</Item>
+            <Item Checked="False">HealingTaken</Item>
+            <Item Checked="True">DamageTaken</Item>
+            <Item Checked="True">Deaths</Item>
+            <Item Checked="False">ToHit%</Item>
+            <Item Checked="False">CritDam%</Item>
+            <Item Checked="False">CritHeal%</Item>
+            <Item Checked="True">CritTypes</Item>
+            <Item Checked="False">Threat +/-</Item>
+            <Item Checked="False">ThreatDelta</Item>
+            <Item Checked="True">Job</Item>
+            <Item Checked="False">ParryPct</Item>
+            <Item Checked="False">BlockPct</Item>
+            <Item Checked="False">IncToHit</Item>
+            <Item Checked="True">OverHealPct</Item>
+            <Item Checked="True">DirectHitPct</Item>
+            <Item Checked="False">DirectHitCount</Item>
+            <Item Checked="False">CritDirectHitCount</Item>
+            <Item Checked="True">CritDirectHitPct</Item>
+        </CheckedListBox>
+        <CheckedListBox Name="clbCD">
+            <Item Checked="False">EncId</Item>
+            <Item Checked="False">Combatant</Item>
+            <Item Checked="False">Grouping</Item>
+            <Item Checked="True">Type</Item>
+            <Item Checked="False">StartTime</Item>
+            <Item Checked="False">EndTime</Item>
+            <Item Checked="False">Duration</Item>
+            <Item Checked="True">Damage</Item>
+            <Item Checked="True">EncDPS</Item>
+            <Item Checked="False">CharDPS</Item>
+            <Item Checked="False">DPS</Item>
+            <Item Checked="True">Average</Item>
+            <Item Checked="False">Median</Item>
+            <Item Checked="True">MinHit</Item>
+            <Item Checked="True">MaxHit</Item>
+            <Item Checked="True">Hits</Item>
+            <Item Checked="False">CritHits</Item>
+            <Item Checked="False">Avoids</Item>
+            <Item Checked="False">Misses</Item>
+            <Item Checked="True">Swings</Item>
+            <Item Checked="False">ToHit</Item>
+            <Item Checked="False">AvgDelay</Item>
+            <Item Checked="False">Crit%</Item>
+            <Item Checked="True">CritTypes</Item>
+            <Item Checked="False">ParryPct</Item>
+            <Item Checked="False">BlockPct</Item>
+            <Item Checked="False">OverHeal</Item>
+            <Item Checked="True">DirectHitPct</Item>
+            <Item Checked="False">DirectHitCount</Item>
+            <Item Checked="False">CritDirectHitCount</Item>
+            <Item Checked="True">CritDirectHitPct</Item>
+        </CheckedListBox>
+        <Button Name="btnMDSort" Text="Damage" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <Button Name="btnMDSort2" Text="Duration" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <CheckedListBox Name="clbDT">
+            <Item Checked="False">EncId</Item>
+            <Item Checked="False">Attacker</Item>
+            <Item Checked="False">Victim</Item>
+            <Item Checked="False">SwingType</Item>
+            <Item Checked="True">Type</Item>
+            <Item Checked="False">StartTime</Item>
+            <Item Checked="False">EndTime</Item>
+            <Item Checked="False">Duration</Item>
+            <Item Checked="True">Damage</Item>
+            <Item Checked="True">EncDPS</Item>
+            <Item Checked="False">CharDPS</Item>
+            <Item Checked="False">DPS</Item>
+            <Item Checked="True">Average</Item>
+            <Item Checked="True">Median</Item>
+            <Item Checked="True">MinHit</Item>
+            <Item Checked="True">MaxHit</Item>
+            <Item Checked="True">Resist</Item>
+            <Item Checked="True">Hits</Item>
+            <Item Checked="False">CritHits</Item>
+            <Item Checked="False">Avoids</Item>
+            <Item Checked="False">Misses</Item>
+            <Item Checked="True">Swings</Item>
+            <Item Checked="True">ToHit</Item>
+            <Item Checked="False">AvgDelay</Item>
+            <Item Checked="True">Crit%</Item>
+            <Item Checked="True">CritTypes</Item>
+            <Item Checked="False">Parry</Item>
+            <Item Checked="False">ParryPct</Item>
+            <Item Checked="False">Block</Item>
+            <Item Checked="False">BlockPct</Item>
+            <Item Checked="False">DmgReduced</Item>
+            <Item Checked="False">OverHeal</Item>
+            <Item Checked="True">DirectHitPct</Item>
+            <Item Checked="False">DirectHitCount</Item>
+            <Item Checked="False">CritDirectHitCount</Item>
+            <Item Checked="True">CritDirectHitPct</Item>
+        </CheckedListBox>
+        <Button Name="btnATSort" Text="Time" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <Button Name="btnATSort2" Text="Time" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <CheckedListBox Name="clbAT">
+            <Item Checked="False">EncId</Item>
+            <Item Checked="True">Time</Item>
+            <Item Checked="True">Attacker</Item>
+            <Item Checked="False">SwingType</Item>
+            <Item Checked="True">AttackType</Item>
+            <Item Checked="True">DamageType</Item>
+            <Item Checked="True">Victim</Item>
+            <Item Checked="False">DamageNum</Item>
+            <Item Checked="True">Damage</Item>
+            <Item Checked="False">Critical</Item>
+            <Item Checked="True">CriticalStr</Item>
+            <Item Checked="True">Special</Item>
+            <Item Checked="True">DmgAdjust</Item>
+            <Item Checked="True">BuffDuration</Item>
+            <Item Checked="False">DmgReduced</Item>
+            <Item Checked="False">OverHeal</Item>
+            <Item Checked="True">DirectHit</Item>
+        </CheckedListBox>
+        <CheckedListBox Name="clbShareBanned" />
+        <CheckedListBox Name="clbShareTrusted" />
+        <CheckBox Name="cbTimersOnTop2" Value="True" />
+        <ColorControl Name="ccEncLabel1" Color="-14513374" />
+        <ColorControl Name="ccEncLabel2" Color="-29696" />
+        <ColorControl Name="ccEncLabel3" Color="-2354116" />
+        <ColorControl Name="ccDGAllyText" Color="-14513374" />
+        <ColorControl Name="ccDGPersonalBackcolor" Color="-3604536" />
+        <ColorControl Name="ccEncBarAvgText" Color="-16777216" />
+        <ColorControl Name="ccEncBarBackFill" Color="-1842205" />
+        <ColorControl Name="ccEncBarColor1" Color="-7667712" />
+        <ColorControl Name="ccEncBarColor2" Color="-16777077" />
+        <ColorControl Name="ccEncBarColor3" Color="-7077677" />
+        <ColorControl Name="ccEncBarLegendText" Color="-16777216" />
+        <ColorControl Name="ccEncBarOutlining" Color="-16777216" />
+        <ColorControl Name="ccEncBarText" Color="-1" />
+        <ColorControl Name="ccEncBarYLines" Color="-6250336" />
+        <ColorControl Name="ccGraphFill1" Color="-4194112" />
+        <ColorControl Name="ccGraphFill2" Color="-32513" />
+        <ColorControl Name="ccGraphFill3" Color="-16777024" />
+        <ColorControl Name="ccGraphFill4" Color="-8355585" />
+        <ColorControl Name="ccGraphFill5" Color="-16727872" />
+        <ColorControl Name="ccGraphFill6" Color="-8323073" />
+        <ColorControl Name="ccGraphFill7" Color="-16728064" />
+        <ColorControl Name="ccGraphFill8" Color="-8323200" />
+        <ColorControl Name="ccGraphFill9" Color="-4145152" />
+        <ColorControl Name="ccGraphFill10" Color="-128" />
+        <ColorControl Name="ccGraphFill11" Color="-4177920" />
+        <ColorControl Name="ccGraphFill12" Color="-16256" />
+        <ColorControl Name="ccGraphFill13" Color="-4194304" />
+        <ColorControl Name="ccGraphFill14" Color="-32640" />
+        <ColorControl Name="ccGraphFill15" Color="-65281" />
+        <ColorControl Name="ccGraphFill16" Color="-12582848" />
+        <ColorControl Name="ccGraphFill17" Color="-16776961" />
+        <ColorControl Name="ccGraphFill18" Color="-16777152" />
+        <ColorControl Name="ccGraphFill19" Color="-16711681" />
+        <ColorControl Name="ccGraphFill20" Color="-16760768" />
+        <ColorControl Name="ccGraphFill21" Color="-16711936" />
+        <ColorControl Name="ccGraphFill22" Color="-16760832" />
+        <ColorControl Name="ccGraphFill23" Color="-256" />
+        <ColorControl Name="ccGraphFill24" Color="-12566528" />
+        <ColorControl Name="ccGraphFill25" Color="-32768" />
+        <ColorControl Name="ccGraphFill26" Color="-8372160" />
+        <ColorControl Name="ccGraphFill27" Color="-65536" />
+        <ColorControl Name="ccGraphFill28" Color="-12582912" />
+        <CheckedListBox Name="clbSoloGraphTypes">
+            <Item Checked="True">Auto-Attack (Out)</Item>
+            <Item Checked="True">Skill/Ability (Out)</Item>
+            <Item Checked="True">Outgoing Damage</Item>
+            <Item Checked="True">Healed (Out)</Item>
+            <Item Checked="True">Power Drain (Out)</Item>
+            <Item Checked="True">Power Replenish (Out)</Item>
+            <Item Checked="True">Cure/Dispel (Out)</Item>
+            <Item Checked="True">Threat (Out)</Item>
+            <Item Checked="True">All Outgoing (Ref)</Item>
+            <Item Checked="True">Incoming Damage</Item>
+            <Item Checked="True">Healed (Inc)</Item>
+            <Item Checked="True">Power Drain (Inc)</Item>
+            <Item Checked="True">Power Replenish (Inc)</Item>
+            <Item Checked="True">Cure/Dispel (Inc)</Item>
+            <Item Checked="True">Threat (Inc)</Item>
+            <Item Checked="True">All Incoming (Ref)</Item>
+            <Item Checked="True">Simulated DoTs (Out)</Item>
+            <Item Checked="True">Simulated HoTs (Out)</Item>
+            <Item Checked="True">Buff/Debuff (Out)</Item>
+            <Item Checked="True">Simulated DoTs (Inc)</Item>
+            <Item Checked="True">Simulated HoTs (Inc)</Item>
+            <Item Checked="True">Buff/Debuff (Inc)</Item>
+        </CheckedListBox>
+        <ColorControl Name="ccSpellTimerBackColor" Color="-986896" />
+        <ColorControl Name="ccSpellTimerExpireColor" Color="-29696" />
+        <ColorControl Name="ccSpellTimerForeColor" Color="-16777216" />
+        <ColorControl Name="ccSpellTimerWarnColor" Color="-5103070" />
+        <FontColorControl Name="fccMainWindow" ForeColor="-16777216" BackColor="-986896" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <FontColorControl Name="fccWindowColors" ForeColor="-16777216" BackColor="-1" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <FontColorControl Name="fccMiniParse" ForeColor="-256" BackColor="-16777216" Font="Lucida Console" Style="Regular" Size="9" />
+        <Button Name="btnLcdFont" Text="Font" Font="Lucida Console" Style="Regular" Size="6.75" />
+        <FontColorControl Name="fccLcdMini" ForeColor="-256" BackColor="-16777216" Font="Courier New" Style="Bold" Size="14.25" />
+        <FontColorControl Name="fccLcdPersonal" ForeColor="-1" BackColor="-16777216" Font="Courier New" Style="Bold" Size="14.25" />
+        <FontColorControl Name="fccTreeView" ForeColor="-16777216" BackColor="-1" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <FontColorControl Name="fccDataGrid" ForeColor="-16777216" BackColor="-1" Font="Microsoft Sans Serif" Style="Regular" Size="8.25" />
+        <CheckBox Name="cbLcdEnabled" Value="False" />
+        <String Name="logFilePath" Value="C:\Users\admin\AppData\Roaming\Advanced Combat Tracker\FFXIVLogs\Network_20170926.log" />
+        <Int64 Name="procMask" Value="0" />
+        <Boolean Name="suppressStartupWizardQuestion" Value="False" />
+        <Boolean Name="suppressCtBenchPopup" Value="False" />
+        <DirectoryInfo Name="folderActfiles" Value="C:\" />
+        <DirectoryInfo Name="folderExports" Value="C:\Users\admin\Desktop" />
+        <DirectoryInfo Name="folderLogs" Value="C:\Users\admin\AppData\Roaming\Advanced Combat Tracker\FFXIVLogs" />
+        <DirectoryInfo Name="folderMedia" Value="C:\WINDOWS\Media" />
+    </SettingsSerializer>
+    <SParseList />
+    <TextFormats />
+    <MacroExports />
+    <CustomTriggers>
+        <Trigger Active="True" Regex="(?&lt;member&gt;.\w+) suffers the effect of Throttle." SoundData="${member}" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The liquid rage uses Liquid Gaol" SoundData="rage Liquid Gaol" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The living liquid readies Ferrofluid" SoundData="Ferrofluid" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The living liquid readies Protean Wave" SoundData="Protean Wave" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The living liquid readies Sluice" SoundData="Sluice" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The living liquid readies Wash Away." SoundData="Wash Away" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The living liquid uses Liquid Gaol" SoundData="Liquid Gaol" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Physical Vulnerability Up" SoundData="Out Group" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z]*) [a-zA-Z]{1,}:[0-9A-F]{4}:[0-9A-F]{4}:0018:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" SoundData="beam ${char}" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z]*) [a-zA-Z]{1,}:[0-9A-F]{4}:[0-9A-F]{4}:0019:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" SoundData="flame ${char}" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Quickthinx Allthoughts readies Sizzlebeam" SoundData="Sizzlebeam" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Quickthinx Allthoughts readies Sizzlespark" SoundData="Sizzlespark" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Quickthinx Allthoughts readies Zoomdoom" SoundData="out out out out" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Shanoa readies Undying Affection" SoundData="meow meow meow" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The sturm doll readies Kugelblitz" SoundData="Kugelblitz" SoundType="3" CategoryRestrict="False" Category="Alexander - The Arm Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Added new combatant Straf Doll\." SoundData="adds" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="True" TimerName="Alex4Straf" Tabbed="False" />
+        <Trigger Active="True" Regex="Sephirot uses Force Field" SoundData="Force Field" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="straf doll readies Wirbelwind" SoundData="Wirbelwind" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The (.*)leg loses the effect of Stun Resistance" SoundData="$1" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The left foreleg loses the effect of Stun Resistance." SoundData="Stun 3" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The left hindleg is shattered!" SoundData="Limit Break" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="True" TimerName="Alex4Leg" Tabbed="False" />
+        <Trigger Active="True" Regex="The left hindleg loses the effect of Stun Resistance." SoundData="Stun 2" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Manipulator readies Carnage\." SoundData="tether" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="True" TimerName="Alex4Carnage" Tabbed="False" />
+        <Trigger Active="True" Regex="The Manipulator readies Discoid" SoundData="ball" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="True" TimerName="Alex4Discoid" Tabbed="False" />
+        <Trigger Active="True" Regex="The Manipulator readies Emergency Quarantine" SoundData="five sec Emergency Quarantine" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="True" TimerName="Alex4Exile" Tabbed="False" />
+        <Trigger Active="True" Regex="The right foreleg loses the effect of Stun Resistance." SoundData="Stun 4" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The right hindleg is shattered!" SoundData="focus" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="True" TimerName="Alex4Leg" Tabbed="False" />
+        <Trigger Active="True" Regex="The right hindleg loses the effect of Stun Resistance." SoundData="Stun 1" SoundType="3" CategoryRestrict="False" Category="Alexander - The Burnden Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Added new combatant Bomb" SoundData="Bomb Added" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The king gobtank G-IV uses Carpet Bomb." SoundData="Bomb incoming" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Father (Savage)" Timer="True" TimerName="Carpet Bomb" Tabbed="False" />
+        <Trigger Active="True" Regex="The magitek gobwidow G-IX readies Boomcannon." SoundData="prey damage" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="(?&lt;char&gt;[a-zA-Z]*) [a-zA-Z]{1,} gains the effect of Compressed Water from Vortexer" SoundData="${char}" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Ballistic Missile" SoundData="Ballistic Missile" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="begins casting Earth Missile " SoundData="Earth Missile" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Blinder on Chocobotsu Monogatari" SoundData="Turn Back" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Brawler uses Attachment." SoundData="Attachment" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Fire Beam" SoundData="Fire Beam" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Power Tackle on Chocobotsu Monogatari" SoundData="Face Enemy" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Super Cyclone" SoundData="Super Cyclone" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Midan gunner uses Snipethoom." SoundData="bang" SoundType="0" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="True" TimerName="Alex6Bang" Tabbed="False" />
+        <Trigger Active="True" Regex="Ultra Flash" SoundData="Ultra Flash" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Vortexer readies Elemental Jammer" SoundData="Jammer" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Vortexer uses Ballistic Missile" SoundData="pools" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="True" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Compressed Lightning." SoundData="Lightning" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Compressed Water." SoundData="Water" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of High Arithmeticks." SoundData="go lower platform." SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Low Arithmeticks." SoundData="go higher platform" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Sludge" SoundData="Sludge" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Water Resistance Down II." SoundData="next thunder" SoundType="3" CategoryRestrict="False" Category="Alexander - The Cuff Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Refurbisher 0 readies Double Scrapline" SoundData="Double Scrap line" SoundType="3" CategoryRestrict="False" Category="Alexander - The Eyes Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Refurbisher 0 readies Scrap Burst" SoundData="Scrap Burst" SoundType="3" CategoryRestrict="False" Category="Alexander - The Eyes Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Refurbisher 0 readies Scrapline" SoundData="Scrap line" SoundType="3" CategoryRestrict="False" Category="Alexander - The Eyes Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Refurbisher 0 readies Stockpile" SoundData="Stockpile" SoundType="3" CategoryRestrict="False" Category="Alexander - The Eyes Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The full-metal faust readies Panzer Vor" SoundData="Panzer Vor" SoundType="3" CategoryRestrict="False" Category="Alexander - The Eyes Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The gobtank scrap readies Boomcannon" SoundData="Boomcannon" SoundType="3" CategoryRestrict="False" Category="Alexander - The Eyes Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The oppressor 0.5 readies Resin Bomb." SoundData="Resin" SoundType="3" CategoryRestrict="False" Category="Alexander - The Fist Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The oppressor readies Resin Bomb." SoundData="Resin" SoundType="3" CategoryRestrict="False" Category="Alexander - The Fist Of The Father (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alexander - The Fist Of The Son (Savage) readies Glupgloop." SoundData="Glupgloop." SoundType="3" CategoryRestrict="False" Category="Alexander - The Fist Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Pssshkoh... No! Must have more goblixer!" SoundData="No! Must have more goblixer!" SoundType="3" CategoryRestrict="False" Category="Alexander - The Fist Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Pssshkohhh! Uplanders cower at power of Clevering!" SoundData="Uplanders cower at power of Clevering!" SoundType="3" CategoryRestrict="False" Category="Alexander - The Fist Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="starts using Oogle" SoundData="Petrifaction" SoundType="3" CategoryRestrict="False" Category="Alexander - The Fist Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The glassy-eyed cobra readies Steel Scales" SoundData="Steel Scales" SoundType="3" CategoryRestrict="False" Category="Alexander - The Fist Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Prey." SoundData="Prey" SoundType="3" CategoryRestrict="False" Category="Alexander - The Fist Of The Son (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="14:1A6C:Cruise Chaser starts using Optical Sight" SoundData="Shiva" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="14:1A6D:Cruise Chaser starts using Optical Sight" SoundData="Edge" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="14:1A6E:Cruise Chaser starts using Optical Sight" SoundData="Spread" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="readies Left Laser Sword" SoundData="Right" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="readies Optical Sight" SoundData="Optical Sight" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="readies Right Laser Sword" SoundData="Left" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Cruise Chaser readies Laser X Sword" SoundData="Laser X Sword" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Cruise Chaser readies Photon" SoundData="Stop Stop Stop" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Cruise Chaser uses Optical Sight" SoundData="run run run" SoundType="3" CategoryRestrict="False" Category="Alexander - The Heart Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Defamation" SoundData="Defamation" SoundType="3" CategoryRestrict="False" Category="Alexander - The Soul Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of House Arrest." SoundData="House Arrest" SoundType="3" CategoryRestrict="False" Category="Alexander - The Soul Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Shared Sentence" SoundData="Shared Sentence" SoundType="3" CategoryRestrict="False" Category="Alexander - The Soul Of The Creator (Savage)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="(begin casting|begins casting) Foe Requiem." SoundData="Foe" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="(use|uses) Battle Litany." SoundData="Litany" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="(use|uses) Battle Voice." SoundData="Battle Voice" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="(use|uses) Embolden." SoundData="Embolden" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="(use|uses) Hypercharge." SoundData="Hypercharge" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="(use|uses) The Balance." SoundData="Balance" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="15:.*:1D0C:Chain Strategem:" SoundData="Chain Stratagem" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="ChainStrategem" Tabbed="False" />
+        <Trigger Active="True" Regex="15:.*:8D2:Trick Attack:.*:28.{6}:" SoundData="Trick Attack" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="TrickAttack" Tabbed="False" />
+        <Trigger Active="True" Regex="Garuda-Egi uses Contagion." SoundData="Contagion" SoundType="3" CategoryRestrict="False" Category="Buffs" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="\&gt;\&gt;" SoundData="tell tell tell" SoundType="3" CategoryRestrict="False" Category="Chat" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="^03:Added new combatant (?i)(Agathos|Bune|Campacti|Enkelados|Lord Of The Wyverns|Lyuba|Mirka|Pylraster|Sisiutl|Slipkinx Steeljoints|Stench Blossom|Stolas)\..+Level: 60 Max HP: \d{6,10} " SoundData="A rank, $1" SoundType="3" CategoryRestrict="False" Category="Class - World Tracking" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="^03:Added new combatant (?i)(Agrippa The Mighty|Bird Of Paradise|Bone Crawler|Bonnacon|Brontes|Chernobog|Croakadile|Croque-Mitaine|Gamma|Gandarewa|Kaiser Behemoth|Laideronnette|Lampalagua|Leucrotta|Mindflayer|Minhocao|Nandi|Nunyunuwi|Okina|Orghana|Safat|Salt And Light|Senmurv|The Garlok|The Pale Rider|Thousand-cast Theda|Udumbara|Wulgaru|Zona Seeker)\..+Max HP: \d{6,10} " SoundData="S rank, $1" SoundType="3" CategoryRestrict="False" Category="Class - World Tracking" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="^03:Added new combatant (?i)(Albin The Ashen|Barbastelle|Bloody Mary|Dark Helmet|Flame Sergeant Dalvag|Gatling|Leech King|Monarch Ogrefly|Myradrosh|Naul|Ovjang|Phecda|Sewer Syrup|Skogs Fru|Stinging Sophie|Vuokho|White Joker)\..+Level: 50 " SoundData="B rank, $1" SoundType="3" CategoryRestrict="False" Category="Class - World Tracking" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="^03:Added new combatant (?i)(Alectryon|Cornu|Dalvag's Final Flame|Forneus|Ghede Ti Malice|Girtab|Hellsclaw|Kurrea|Maahes|Marberry|Marraco|Melt|Nahn|Sabotender Bailarina|Unktehi|Vogaal Ja|Zanig'oh)\..+Level: 50 Max HP: \d{6,10} " SoundData="A rank, $1" SoundType="3" CategoryRestrict="False" Category="Class - World Tracking" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="^03:Added new combatant (?i)(Alteci|False Gigantopithecus|Gnath Cometdrone|Kreutzet|Lycidas|Omni|Pterygotus|Sanu Vali Of Dancing Wings|Scitalis|Squonk|The Scarecrow|Thextera)\..+Level: 60 " SoundData="B rank, $1" SoundType="3" CategoryRestrict="False" Category="Class - World Tracking" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="^03:Added new combatant (?i)(Angada|Aqrabuamelu|Erle|Funa Yurei|Gajasura|Girimekhala|Luminare|Mahisha|Oni Yumemi|Orcus|Sum|Vochstein)\..+Level: 70 Max HP: \d{7,8} " SoundData="A rank, $1" SoundType="3" CategoryRestrict="False" Category="Class - World Tracking" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="^03:Added new combatant (?i)(Aswang|Buccaboo|Deidar|Gauki Strongblade|Guhuo Niao|Gwas-y-neidr|Gyorai Quickstrike|Kiwa|Kurma|Manes|Ouzelum|Shadow-dweller Yamini)\..+Level: 70 Max HP: \d{6} " SoundData="B rank, $1" SoundType="3" CategoryRestrict="False" Category="Class - World Tracking" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="^03:Added new combatant (?i)(Tamamo-No-Gozen|Ixion)\..+Level: 70 Max HP: \d{7,10} " SoundData="Fate, $1" SoundType="3" CategoryRestrict="False" Category="Class - World Tracking" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Sophia readies Thunder III" SoundData="in" SoundType="3" CategoryRestrict="False" Category="Containment Bay P1T6 (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="My cup runneth over with fire and lightning" SoundData="ice" SoundType="3" CategoryRestrict="False" Category="Dungean" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="My cup runneth over with ice and fire" SoundData="lightning" SoundType="3" CategoryRestrict="False" Category="Dungean" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="My cup runneth over with lightning and ice" SoundData="fire" SoundType="3" CategoryRestrict="False" Category="Dungean" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The hunter of Bardam readies Empty Gaze" SoundData="Empty Gaze" SoundType="3" CategoryRestrict="False" Category="Dungean" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The yol readies Eye of the Fierce" SoundData="Turn Back Turn Back" SoundType="3" CategoryRestrict="False" Category="Dungean" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi readies Alluring Arm" SoundData="Alluring Arm, X" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi readies Chanchala" SoundData="Chanchala" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi readies Divine Desire" SoundData="use vril" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi readies Divine Doubt" SoundData="use Vril, go rim" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi readies Hand of Grace" SoundData="Hand of Grace" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi readies Stotram" SoundData="A O E Damage" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="Stotram" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi readies The Pall of Light" SoundData="The Pall of Light" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi readies The Pull of Light" SoundData="The Pull of Light" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="The Pull Of Light" Tabbed="False" />
+        <Trigger Active="True" Regex="Lakshmi uses Jagadishwari" SoundData="Jagdish vari" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Sssurrender to blisss" SoundData="use Vril" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The dreaming kshatriya readies Vril" SoundData="Vril" SoundType="3" CategoryRestrict="False" Category="Emanation (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Storm Seals" SoundData="Fate end" SoundType="3" CategoryRestrict="False" Category="FATE" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The smell of death has drawn a Forlorn maiden to the battlefield!" SoundData="Forlorn maiden" SoundType="3" CategoryRestrict="False" Category="FATE" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Something bites!" SoundData="Something bites!" SoundType="3" CategoryRestrict="False" Category="Fishing" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The fish gets away..." SoundData="The fish gets away..." SoundType="3" CategoryRestrict="False" Category="Fishing" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="([\w\']+)(?:[\w\' ]+)? suffers? the effect of Forked Lightning\." SoundData="forked on $1" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="([\w\']+)(?:[\w\' ]+)? suffers? the effect of Prey\." SoundData="prey on $1" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="([\w\']+)(?:[\w\' ]+)? suffers? the effect of Stun\." SoundData="$1 Stun" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="I am the end and the beginning" SoundData="Mantra" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="King Kazma uses Shirk" SoundData="Shirk Shirk Shirk" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Miku Hachune suffers the effect of Concussion" SoundData="Miku Concussion" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="no longer sealed" SoundData="Check Weapon!" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Osola Firewing suffers the effect of Marked for Damage Down" SoundData="go C" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="suffer the effect of Prey" SoundData="Prey" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="The anima housed in the sharpened Trident of the Overlord grows ([\w\']+)(?:[\w\' ]+)? from aetheric condensation" SoundData="$1" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You gain the effect of Darkside" SoundData="Darkside On" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You have arrived at a vista!" SoundData="You have arrived at a vista!" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You have dimmed my boundless light." SoundData="what" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You lose the effect of Cleric Stance." SoundData="Cleric Stance Off" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You lose the effect of Darkside" SoundData="Darkside Off" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You lose the effect of Well Fed." SoundData="Food down" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You received a player commendation" SoundData="You received a player commendation" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Anti-coagulant" SoundData="Anti-coagulant" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Marked for Damage Down" SoundData="go A" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Your culinarian desynthesis skill increases by (?&lt;point&gt;[0-9A-F]{1}.[0-9A-F]{2}!*)" SoundData="skill increase ${point}" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Your spiritbond with the" SoundData="Spirit Bond Complete!" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="you put up for sale in the Kugane markets have sold for" SoundData="items sold" SoundType="3" CategoryRestrict="False" Category="MarketBoard" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite readies Breath Wing" SoundData="Breath Wing" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite readies Charybdis" SoundData="Charybdis" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite readies Clamp" SoundData="Clamp" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite readies Downburst" SoundData="Downburst" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite readies Levinbolt" SoundData="Levinbolt" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite readies Roar" SoundData="Roar" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite readies The Classical Elements" SoundData="Classical Elements" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite readies Twin Bolt" SoundData="Twin Bolt" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite uses Flash Freeze" SoundData="Flash Freeze" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Alte Roite uses Wyrm Tail" SoundData="Wyrm Tail" SoundType="3" CategoryRestrict="False" Category="Omega - Alte Roite" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe readies Antilight" SoundData="Antilight" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe readies Demon Eye" SoundData="Demon Eye" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe readies Earthquake" SoundData="Earthquake" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe readies Epicenter" SoundData="Epicenter" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe readies Evilsphere" SoundData="Evilsphere" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe readies Gravitational Manipulation" SoundData="Ready For Position" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe readies Gravitational Wave" SoundData="Gravitational Wave" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe readies Maniacal Probe" SoundData="Maniacal Probe" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Catastrophe uses Paranormal Wave" SoundData="Paranormal Wave" SoundType="3" CategoryRestrict="False" Category="Omega - Catastrophe" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath begins casting Blizzard III" SoundData="Blizzard III" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath begins casting Fire III" SoundData="Fire 3" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath begins casting Holy." SoundData="Stack" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath begins casting Meteor" SoundData="Meteor" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath begins casting Thunder III" SoundData="Thunder III, buster or away" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath readies Black Hole" SoundData="Black Hole" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath readies Dualcast" SoundData="Dual cast" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath readies Vacuum Wave" SoundData="Knock Back, Tempered Will" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Exdeath readies White Hole" SoundData="go to raid" SoundType="3" CategoryRestrict="False" Category="Omega - Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="14:2306:(Halicarnassus|Halicarnasse|Halikarnassos|ハリカルナッソス)" SoundData="Swords Swords Swords" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="14:2308:(Halicarnassus|Halicarnasse|Halikarnassos|ハリカルナッソス)" SoundData="Vines Vines Vines" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="14:230A:(Halicarnassus|Halicarnasse|Halikarnassos|ハリカルナッソス)" SoundData="Blue Blue Blue" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="14:230E:(Halicarnassus|Halicarnasse|Halikarnassos|ハリカルナッソス)" SoundData="Books Books Books" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus begins casting Dimensional Wave" SoundData="Dimensional Wave" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus begins casting Spellblade Holy" SoundData="Spellblade Holy" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Critical Hit" SoundData="Critical Hit" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Haste" SoundData="Boss Speed Up" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Oink" SoundData="Piggy Piggy Piggy" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Place Token" SoundData="Add Add Add" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Pole Shift" SoundData="Pole Shift" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Ribbit" SoundData="Frog Frog Frog" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Spellblade Blizzard III" SoundData="Away From the Boss" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Spellblade Thunder III" SoundData="Thunder III" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies Squelch" SoundData="Kappa turn back" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies The Game" SoundData="The Game" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus readies The Queen's Waltz" SoundData="Queen's Waltz Sheltron" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus uses Squelch" SoundData="continues" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Halicarnassus uses The Game" SoundData="go go!" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of About Face" SoundData="Back" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Forward March" SoundData="face" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Left Face" SoundData="Left" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Right Face" SoundData="Right" SoundType="3" CategoryRestrict="False" Category="Omega - Halicarnassus" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath begins casting Aero III" SoundData="Aero III" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath begins casting Delta Attack" SoundData="Move Move Move" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath begins casting Meteor." SoundData="Meteors" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Almagest" SoundData="Almagest" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Charybdis." SoundData="Photon" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Double Attack" SoundData="Double Attack" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Earth Shaker" SoundData="Earth Shaker" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Emptiness" SoundData="Emptiness" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Flood of Naught" SoundData="Flood of Naught" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Flood of Naught." SoundData="Boss Lazers" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Grand Cross Alpha" SoundData="Go Center" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Grand Cross Delta" SoundData="Grand Cross Delta" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Grand Cross Omega." SoundData="Omega" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath readies Light and Darkness" SoundData="Flare and Stack" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Neo Exdeath uses Grand Cross Alpha" SoundData="Cross Alpha" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of (Beyond Death|Allagan Field|Cursed Shriek|Compressed Water|Forked Lightning)" SoundData="$1" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Allagan Field" SoundData="Allagan Field" SoundType="3" CategoryRestrict="False" Category="Omega - Neo Exdeath" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Cairn of Passage is activated" SoundData="Cairn activated" SoundType="3" CategoryRestrict="False" Category="POTD" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Cairn of Return begins to glow" SoundData="Cairn of Return " SoundType="3" CategoryRestrict="False" Category="POTD" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Dragon's Voice" SoundData="The Dragon's Voice" SoundType="3" CategoryRestrict="False" Category="POTD" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Ram's Voice" SoundData=" Ram's Voice" SoundType="3" CategoryRestrict="False" Category="POTD" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="The icebound tomelith" SoundData="icebound " SoundType="3" CategoryRestrict="False" Category="PVP" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="The icebound tomelith A" SoundData="icebound A" SoundType="3" CategoryRestrict="False" Category="PVP" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="has initiated a ready check" SoundData="Ready check" SoundType="3" CategoryRestrict="False" Category="Raid Utility" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="joins the party." SoundData="joins the party." SoundType="3" CategoryRestrict="False" Category="Raid Utility" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Ready: 8/8" SoundData="Ready:Ready:Ready:" SoundType="3" CategoryRestrict="False" Category="Raid Utility" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Battle commencing in (5|10|15|20)" SoundData="Pulling in $1" SoundType="3" CategoryRestrict="False" Category="Raid" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="has initiated a ready check" SoundData="Ready check" SoundType="3" CategoryRestrict="False" Category="Raid" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Ravana gains the effect of Defensive Optimization" SoundData="Ravana takes decreased damage" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Ravana gains the effect of Offensive Optimization" SoundData="Go Full Buff" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Ravana readies Liberation" SoundData="Get behind him" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Ravana readies Pillars of Heaven" SoundData="Get against a wall" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Ravana readies Prelude to Liberation" SoundData="Make your way to the back" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Ravana readies Swift Liberation" SoundData="Standby for swords" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Ravana readies The Rose of Hate" SoundData="Start running around" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Ravana uses Scorpion Avatar" SoundData="Full Buff" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Seeing Left." SoundData="右 right" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Seeing Right." SoundData="左 left" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The Seeing Wings." SoundData="フロント Front" SoundType="3" CategoryRestrict="False" Category="Ravana - Thok Ast Thok (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Eos casts Whispering Dawn." SoundData="" SoundType="0" CategoryRestrict="False" Category="SCH" Timer="True" TimerName="Eos casts Whispering Dawn." Tabbed="False" />
+        <Trigger Active="True" Regex="Eos HP at 0" SoundData="" SoundType="2" CategoryRestrict="False" Category="SCH" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Eos HP at 0|Selene HP at 0" SoundData="" SoundType="2" CategoryRestrict="False" Category="SCH" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Eos uses Fey Covenant." SoundData="" SoundType="0" CategoryRestrict="False" Category="SCH" Timer="True" TimerName="Eos uses Fey Covenant." Tabbed="False" />
+        <Trigger Active="True" Regex="Eos uses Fey Illumination." SoundData="" SoundType="0" CategoryRestrict="False" Category="SCH" Timer="True" TimerName="Eos uses Fey Illumination." Tabbed="False" />
+        <Trigger Active="True" Regex="Selene HP at 0" SoundData="" SoundType="2" CategoryRestrict="False" Category="SCH" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You gain the effect of Aetherflow." SoundData="Flow" SoundType="0" CategoryRestrict="False" Category="SCH" Timer="True" TimerName="You gain the effect of Aetherflow." Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot casts Da'at" SoundData=" Da'at" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Sephirot casts Ein Sof" SoundData="Look for  Green Orbs" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot casts Tiferet" SoundData="Tiferet" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot uses Chesed" SoundData=" Chesed" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot uses Chesed Gevurah" SoundData="Chesed Gevurah" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Sephirot uses Earth Shaker" SoundData="Use Foresight" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot uses Fiendish Rage" SoundData="Fiendish Rage Jump" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot uses Fiendish Wail" SoundData="Fiendish Wail" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot uses Gevurah Chesed" SoundData="Gevurah Chesed" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot uses Malkuth" SoundData="Malkuth" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot uses Pillar of Mercy" SoundData="Pillar of Mercy" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="False" Regex="Sephirot uses Triple Trial." SoundData="Triple Trial" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Force Against Magic." SoundData="Intercept Intercept Intercept " SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Force Against Might." SoundData="Tower Tower Tower" SoundType="3" CategoryRestrict="False" Category="Sephirot" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Arbuda readies Hellseal" SoundData="Hellseal" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Arbuda readies Killer Instinct" SoundData="Bluster" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Fore and Aft" SoundData="Go Side" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Ivon Coeurlfist readies Touch of Slaughter" SoundData="Cover" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Port and Star" SoundData="Go Front" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="readies Fourfold Shear" SoundData="Bluster" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Shinryu readies Akh Morn" SoundData="Akh Morn" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Shinryu readies Earthen Fury" SoundData="Earthen Fury" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Shinryu readies Gyre Charge" SoundData="Gyre Charge" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Shinryu readies Hellfire" SoundData="Hellfire" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Shinryu readies Judgment Bolt" SoundData="Judgment Bolt" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Shinryu readies Tidal Wave" SoundData="Tidal Wave" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Sophia readies Arms of Wisdom" SoundData="Arms of Wisdom" SoundType="3" CategoryRestrict="False" Category="Sophia" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Sophia readies Quasar" SoundData="Position" SoundType="3" CategoryRestrict="False" Category="Sophia" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="readies Rasen Kaikyo" SoundData="Stack" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="readies Stormsplitter" SoundData="Stormsplitter" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="readies Ukehi" SoundData="A O E damage" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Susano readies Seasplitter" SoundData="Seasplitter" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Susano uses Assail" SoundData="Assail" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="True" TimerName="Assail" Tabbed="False" />
+        <Trigger Active="True" Regex="Susano uses Brightstorm" SoundData="Brightstorm" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Susano uses Yasakani No Magatama" SoundData="look for cloud" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Susano: Let the revels begin" SoundData="Assail" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Susano: Now cometh our part! Make way" SoundData="Party Move" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The thunderhead readies The Parting Clouds" SoundData="Parting Clouds" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Churning" SoundData="Churning" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You lose the effect of Sheltron" SoundData="Sheltron Lost" SoundType="3" CategoryRestrict="False" Category="Tank Buff" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Dead Water" SoundData="Dead Water" SoundType="3" CategoryRestrict="False" Category="The Limitless Blue (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Dead Wind" SoundData="Dead Wind" SoundType="3" CategoryRestrict="False" Category="The Limitless Blue (Extreme)" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg readies Akh Morn" SoundData="Akh Morn" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg readies Ala Morn" SoundData="Ala Morn" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg readies Cauterize" SoundData="Cauterize" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg readies Eye of the Tyrant" SoundData="Eye of the Tyrant" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg readies Geirskogul" SoundData="Geirskögul" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg readies Hot Tail" SoundData="Position Side" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg readies Hot Wing" SoundData="Position Center" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg uses Deafening Bellow" SoundData="Deafening Bellow" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg uses Drachenlance" SoundData="Drachenlance" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg uses Final Chorus" SoundData="Final Chorus" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg uses Mortal Chorus" SoundData="Mortal Chorus" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg uses Soul Tether" SoundData="Soul Tether" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Nidhogg uses The Scarlet Whisper" SoundData="The Scarlet Whisper" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Provoke" SoundData="Provoke" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="The shadow dragon readies Ripper Claw" SoundData="Ripper Claw" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Clawbound" SoundData="Clawbound" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="You suffer the effect of Fangbound" SoundData="Fangbound" SoundType="3" CategoryRestrict="False" Category="The Minstrel's Ballad: Nidhogg's Rage" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="BILE BELOW" SoundData="BILE BELOW" SoundType="3" CategoryRestrict="False" Category="Void Ark" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Echidna readies Flame Wreath" SoundData="Flame Wreath" SoundType="3" CategoryRestrict="False" Category="Void Ark" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Echidna readies Sickle Strike" SoundData="Sickle Strike" SoundType="3" CategoryRestrict="False" Category="Void Ark" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="readies Petrifaction" SoundData="Petrifaction" SoundType="3" CategoryRestrict="False" Category="Void Ark" Timer="False" TimerName="" Tabbed="False" />
+    </CustomTriggers>
+    <SpellTimers>
+        <Spell Checked="True" Name="Alex6Bang" Timer="10" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="" WarningWav="" WarningValue="5" RadialDisplay="True" Modable="True" Tooltip="" FillColor="-16776961" Panel1="True" Panel2="False" RemoveValue="-1" Category="Alexander 6" RestrictCategory="False" />
+        <Spell Checked="True" Name="You gain the effect of Aetherflow." Timer="60" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="" WarningWav="" WarningValue="1" RadialDisplay="False" Modable="False" Tooltip="" FillColor="-16776961" Panel1="True" Panel2="False" RemoveValue="-2" Category="General" RestrictCategory="False" />
+        <Spell Checked="True" Name="Eos casts Whispering Dawn." Timer="60" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="" WarningWav="" WarningValue="3" RadialDisplay="True" Modable="True" Tooltip="Whispering Dawn" FillColor="-5912652" Panel1="True" Panel2="False" RemoveValue="-1" Category="SCH" RestrictCategory="False" />
+        <Spell Checked="True" Name="Eos uses Fey Covenant." Timer="120" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="" WarningWav="" WarningValue="3" RadialDisplay="True" Modable="True" Tooltip="Fey Covenant" FillColor="-5912652" Panel1="True" Panel2="False" RemoveValue="-1" Category="SCH" RestrictCategory="False" />
+        <Spell Checked="True" Name="Eos uses Fey Illumination." Timer="120" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="" WarningWav="" WarningValue="3" RadialDisplay="True" Modable="True" Tooltip="Fey Illumination" FillColor="-5912652" Panel1="True" Panel2="False" RemoveValue="-1" Category="SCH" RestrictCategory="False" />
+        <Spell Checked="True" Name="Blood for Blood" Timer="42" OnlyMasterTicks="False" Restrict="True" Absolute="False" StartWav="" WarningWav="Blood for Blood" WarningValue="5" RadialDisplay="True" Modable="True" Tooltip="" FillColor="-16776961" Panel1="True" Panel2="False" RemoveValue="-15" Category="Skills" RestrictCategory="False" />
+    </SpellTimers>
+    <TimerWhiteList />
+    <RenameFix />
+    <AbilityRedirectFix />
+    <OdbcHacks />
+    <ActPlugins>
+        <Plugin Enabled="True" Path="C:\Program Files (x86)\Advanced Combat Tracker\OverlayPlugin\OverlayPlugin.dll" />
+        <Plugin Enabled="True" Path="C:\Users\admin\Documents\My Games\ACT\ACT.SpecialSpellTimer\ACT.SpecialSpellTimer.dll" />
+        <Plugin Enabled="True" Path="C:\Users\admin\AppData\Roaming\Advanced Combat Tracker\Plugins\FFXIV_ACT_Plugin.dll" />
+        <Plugin Enabled="False" Path="C:\Users\admin\Documents\My Games\ACT\act_timeline\bin\BindingCoil.ACTTimeline.dll" />
+        <Plugin Enabled="True" Path="C:\Users\admin\Documents\My Games\ACT\SlimDX_XAudio2.dll" />
+    </ActPlugins>
+    <XmlSubs />
+</Config>
